@@ -30,15 +30,6 @@ width: 11rem;`
 
 ```
 
-### Vorteile
-
-- Theming
-  Theming ermöglicht es ein "gleichbleibendes" Thema mit Farben und Schriftarten zu definieren, dass mit dem `<ThemeProvider/>` einheitlich an verschiedene Komponenten weitergegeben werden kann (z.B. light/darkmode).
-  Der Style wird in einer Variable gespeichert und als Prop an den ThemeProvider weitergegeben.
-- Props
-  Durch Props können wir das Styling unkompliziert dynamisch machen.
-- es ist möglich eine bestehende Komponente für einmalige Benutzung erweitern
-
 ## Installation
 
 `npm install styled-components`
@@ -51,6 +42,19 @@ const Button = styled.button``
 ```
 
 ! Diese ungewöhnliche Backtick-Syntax ist eine neue JavaScript-Funktion namens „ Tagged Template Literal“ .
+
+### Vorteile
+
+- es ist möglich eine bestehende Komponente für einmalige Benutzung erweitern
+- Theming
+  Theming ermöglicht es ein "gleichbleibendes" Thema mit Farben und Schriftarten zu definieren, dass mit dem `<ThemeProvider/>` einheitlich an verschiedene Komponenten weitergegeben werden kann (z.B. light/darkmode).
+  Der Style wird in einer Variable gespeichert und als Prop an den ThemeProvider weitergegeben.
+- Props
+  Durch Props können wir das Styling unkompliziert dynamisch machen.
+
+### Nachteile
+
+- kann bei vielen Komponenten oder großen Projekten etwas langsamer sein – vor allem beim ersten Rendern.
 
 ###### Intellisense Erweiterung für styled-components
 

@@ -14,6 +14,12 @@ const ButtonSimple = styled.button`
   padding: 0.25em 1em;
 `;
 
+// Styles extended
+const ButtonSimpleBlue = styled(ButtonSimple)`
+  background: #3f94f6;
+  border-radius: 8px;
+`;
+
 const ButtonProps = styled.button`
   /* Adapt the colors based on primary prop */
   background: ${(props) => (props.$primary ? "#BF4F74" : "white")};
@@ -22,12 +28,6 @@ const ButtonProps = styled.button`
   margin: 1em;
   padding: 0.25em 1em;
   border: 2px solid #bf4f74;
-  border-radius: 8px;
-`;
-
-// Styles extended
-const ButtonSimpleBlue = styled(ButtonSimple)`
-  background: #3f94f6;
   border-radius: 8px;
 `;
 
