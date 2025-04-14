@@ -15,8 +15,6 @@ import styled from 'styled-components'
 const Button = styled.button``
 ```
 
-! Diese ungewöhnliche Backtick-Syntax ist eine neue JavaScript-Funktion namens „ Tagged Template Literal“ .
-
 #### Unterschied zu Tailwind und Inline-CSS
 
 Im Gegensatz zu Tailwind wird normale CSS Syntax benutzt,man muss sich die Tailwind Klassen nicht merken und bleibt aber übersichtlich, weil die Komponenten nur einmal definiert werden. Außerdem können im Gegensatz zu Inline-Styles Mediaqueries und Pseudoselektoren benutzt werden. Außerdem gibt es die Möglichkeit props an die Komponenten zu übergeben und damit variabel zu stylen.
@@ -42,6 +40,8 @@ transition: all 200ms ease-in-out;
 width: 11rem;`
 
 ```
+
+! Diese ungewöhnliche Backtick-Syntax ist eine neue JavaScript-Funktion namens „ Tagged Template Literal“ .
 
 ### Vorteile
 
