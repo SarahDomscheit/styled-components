@@ -46,11 +46,11 @@ width: 11rem;`
 ### Vorteile
 
 - es ist möglich eine bestehende Komponente für einmalige Benutzung erweitern
+- Props
+  Durch Props können wir das Styling unkompliziert dynamisch machen.
 - Theming
   Theming ermöglicht es ein "gleichbleibendes" Thema mit Farben und Schriftarten zu definieren, dass mit dem `<ThemeProvider/>` einheitlich an verschiedene Komponenten weitergegeben werden kann (z.B. light/darkmode).
   Der Style wird in einer Variable gespeichert und als Prop an den ThemeProvider weitergegeben.
-- Props
-  Durch Props können wir das Styling unkompliziert dynamisch machen.
 
 ### Nachteile
 
